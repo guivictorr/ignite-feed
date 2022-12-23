@@ -1,3 +1,5 @@
+import { Avatar } from './Avatar';
+
 export const Profile = () => (
 	<div className='flex flex-col items-center rounded-lg bg-neutral-800 overflow-hidden'>
 		<img
@@ -5,11 +7,9 @@ export const Profile = () => (
 			src='https://loremflickr.com/640/480/nature'
 			alt='Cover'
 		/>
-		<img
-			src='https://github.com/guivictorr.png'
-			alt=''
-			className='w-14 h-14 border-2 border-emerald-500 rounded-lg bg-black p-1 -mt-8'
-		/>
+		<div className='-mt-10'>
+			<Avatar />
+		</div>
 		<p className='mt-6 font-bold'>Guilherme Victor</p>
 		<p className='text-neutral-400'>Software Developer</p>
 
