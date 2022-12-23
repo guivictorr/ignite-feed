@@ -5,7 +5,7 @@ export const Profile = () => (
 	<div className='flex flex-col items-center rounded-lg bg-neutral-800 overflow-hidden'>
 		<img
 			className='h-[72px] w-full object-cover'
-			src='https://loremflickr.com/640/480/nature'
+			src='https://loremflickr.com/640/480/abstract'
 			alt='Cover'
 		/>
 		<div className='-mt-10'>
