@@ -1,7 +1,7 @@
 <h1 align='center'>Ignite feed</h1>
 
 ## 💄 Layout
-- [Layout no Figma](Link pro figma)
+- [Layout no Figma](https://www.figma.com/community/file/1113573231685349036)
 
 ## 🛠 Technologies
 
