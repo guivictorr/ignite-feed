@@ -1,4 +1,5 @@
 import { Avatar } from './Avatar';
+import { Button } from './Button';
 
 export const Profile = () => (
 	<div className='flex flex-col items-center rounded-lg bg-neutral-800 overflow-hidden'>
@@ -14,12 +15,7 @@ export const Profile = () => (
 		<p className='text-neutral-400'>Software Developer</p>
 
 		<footer className='mx-auto mt-8 px-8 pb-8 pt-6 border-t border-neutral-700/60 w-full'>
-			<button
-				type='button'
-				className='focus:outline outline-emerald-500 outline-offset-2 bg-transparent w-full px-6 py-3 rounded-lg border border-emerald-500 text-emerald-500 font-bold'
-			>
-				Edit profile
-			</button>
+			<Button variant='outline'>Edit profile</Button>
 		</footer>
 	</div>
 );
