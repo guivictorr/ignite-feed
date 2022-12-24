@@ -1,4 +1,5 @@
 import { Header } from './components/Header';
+import { Post } from './components/Post';
 import { Profile } from './components/Profile';
 
 const App = () => {
@@ -10,7 +11,9 @@ const App = () => {
 					<aside className='w-64'>
 						<Profile />
 					</aside>
-					<section className='bg-red-500 flex-1'>main</section>
+					<section className='flex-1'>
+						<Post />
+					</section>
 				</main>
 			</div>
 		</div>
