@@ -2,7 +2,7 @@ import { Avatar } from './Avatar';
 
 export const Comment = () => (
 	<div className='flex items-start gap-4'>
-		<Avatar />
+		<Avatar noBorder />
 
 		<div className='rounded-lg bg-zinc-700/30 px-4 pt-4 pb-6 flex-1'>
 			<div>
