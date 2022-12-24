@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 import classNames from 'classnames';
 
 enum Variants {
-	primary = 'bg-emerald-600 text-neutral-300',
+	primary = 'bg-emerald-600 text-zinc-300',
 	outline = 'bg-transparent border border-emerald-600 text-emerald-600',
 }
 
