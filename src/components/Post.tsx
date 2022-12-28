@@ -6,7 +6,9 @@ export const Post = () => (
 	<article className='bg-zinc-800 p-10 h-full rounded-lg'>
 		<header className='flex justify-between items-center'>
 			<div className='flex items-center gap-4'>
-				<Avatar />
+				<div className='hidden md:block'>
+					<Avatar />
+				</div>
 				<div>
 					<p className='font-bold'>Guilherme Victor</p>
 					<p className='text-zinc-400'>Software developer</p>
