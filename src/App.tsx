@@ -7,7 +7,7 @@ const App = () => {
 		<div>
 			<Header />
 			<div>
-				<main className='flex flex-col lg:flex-row lg:max-w-[70%] lg:mx-auto my-8 gap-8'>
+				<main className='flex flex-col lg:flex-row lg:max-w-[70%] xl:max-w-[60%] lg:mx-auto my-8 gap-8'>
 					<aside className='w-full lg:w-64'>
 						<Profile />
 					</aside>

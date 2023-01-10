@@ -1,6 +1,10 @@
 import { Avatar } from './Avatar';
 
-export const Comment = () => (
+interface CommentProps {
+	comment: string;
+}
+
+export const Comment = ({ comment }: CommentProps) => (
 	<div className='flex items-start gap-4'>
 		<div className='hidden md:block'>
 			<Avatar noBorder />
@@ -13,7 +17,7 @@ export const Comment = () => (
 					</p>
 					<p className='text-sm text-zinc-500'>2h ago</p>
 				</div>
-				<div className='mt-4'>content</div>
+				<div className='mt-4'>{comment}</div>
 			</div>
 			<button
 				className='hover:text-emerald-500 transition text-zinc-400 mt-4 font-bold'
